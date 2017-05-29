@@ -4,7 +4,7 @@
             <div class="col-md-6">
                 <!-- Logo -->
                 <div class="logo">
-                    <h1 style="font-family: 'CHelvethaica',sans-serif; padding-left: 10px;"><a href="index.php">ระบบคอร์เทค 4.0</a></h1>
+                    <h1 style="font-family: 'CHelvethaica',sans-serif; padding-left: 10px;"><a href="index.php">ระบบบริหารจัดการองค์กร คอร์เทคฯ 4.0</a></h1>
                 </div>
             </div>
             <div class="col-md-6">
