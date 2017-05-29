@@ -2,6 +2,8 @@
     <div class="sidebar content-box" style="display: block;">
         <ul class="nav">
             <!-- Main menu -->
+            <div style="text-align: center; padding-bottom: 10px;">ยินดีต้อนรับ, <a href="#">Sukanya</a></div>
+            <li></li>
             <li class="current"><a href="index.php"><i class="glyphicon glyphicon-home"></i> หน้าแรก</a></li>
             <li class="submenu">
                 <a href="#">
@@ -14,6 +16,7 @@
                 </ul>
             </li>
             <li><a href="#"><i class="glyphicon glyphicon-briefcase"></i> ข้อมูลภายในองค์กร</a></li>
+            <li><a href="#"><i class="glyphicon glyphicon-off"></i> ออกจากระบบ</a></li>
             <!--
             <li><a href="#"><i class="glyphicon glyphicon-stats"></i> Statistics (Charts)</a></li>
             <li><a href="#"><i class="glyphicon glyphicon-list"></i> Tables</a></li>
