@@ -17,7 +17,7 @@
                     <span class="caret pull-right"></span>
                 </a>
                 <ul>
-                    <li><a href="#">ยื่นคำขอ</a></li>
+                    <li><a href="add_leav.php">ยื่นคำขอ</a></li>
                     <li><a href="#">รายการทั้งหมด</a></li>
                 </ul>
             </li>

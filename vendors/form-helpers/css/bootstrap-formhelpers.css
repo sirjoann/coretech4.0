@@ -1920,7 +1920,6 @@
 }
 
 .bfh-datepicker-calendar > table.calendar .months-header > th {
-  font-size: 12px;
   text-align: center;
 }
 
@@ -1936,14 +1935,12 @@
 
 .bfh-datepicker-calendar > table.calendar .days-header > th {
   width: 30px;
-  font-size: 11px;
   line-height: 12px;
   text-align: center;
 }
 
 .bfh-datepicker-calendar > table.calendar > tbody > tr > td {
   width: 30px;
-  font-size: 11px;
   line-height: 12px;
   text-align: center;
 }
