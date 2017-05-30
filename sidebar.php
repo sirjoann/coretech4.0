@@ -21,7 +21,7 @@
                     <li><a href="#">รายการทั้งหมด</a></li>
                 </ul>
             </li>
-            <li><a href="#"><i class="fa fa-building-o"></i> ข้อมูลภายในองค์กร</a></li>
+            <li><a href="#"><i class="fa fa-building-o"></i> ผู้บริหารและพนักงาน</a></li>
             <li><a href="#"><i class="fa fa-power-off"></i> ออกจากระบบ</a></li>
         </ul>
     </div>
