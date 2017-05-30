@@ -2,13 +2,12 @@
     <div class="container-fluid">
         <div class="rows">
             <div class="col-md-6">
-                <!-- Logo -->
                 <div class="logo">
-                    <h1 style="font-family: 'CHelvethaica',sans-serif; padding-left: 10px;"><a href="index.php">ระบบบริหารจัดการองค์กร คอร์เทคฯ 4.0</a></h1>
+                    <h1 style="font-family: 'CHelvethaica',sans-serif; padding-left: 10px;"><a href="index.php">ระบบบริหารจัดการคอร์เทคฯ 4.0</a></h1>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="navbar navbar-inverse" role="banner">
+                <!--<div class="navbar navbar-inverse" role="banner">
                     <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
                         <ul class="nav navbar-nav">
                             <li class="dropdown">
@@ -19,7 +18,7 @@
                                 </ul>
                             </li>
                         </ul>
-                    </nav>
+                    </nav>-->
                 </div>
             </div>
         </div>
