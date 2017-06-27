@@ -20,6 +20,17 @@ if ($_SESSION['UserID'] == "") {
             <li><a href="forms.php"><i class="fa fa-file-text-o"></i> แบบฟอร์มต่างๆ</a></li>
             <li class="submenu">
                 <a href="#">
+                    <i class="fa fa-print"></i> รายงานการใช้เครื่องปริ้น
+                    <span class="caret pull-right"></span>
+                </a>
+                <ul>
+                    <li><a href="add_print.php">บันทึกการใช้งาน</a></li>
+                    <li><a href="print_all.php">รายการปริ้นงานทั้งหมด</a></li>
+                </ul>
+            </li>
+            <!--
+            <li class="submenu">
+                <a href="#">
                     <i class="fa fa-street-view"></i> รายงานออกนอกพื้นที่
                     <span class="caret pull-right"></span>
                 </a>
@@ -28,6 +39,7 @@ if ($_SESSION['UserID'] == "") {
                     <li><a href="#">รายการทั้งหมด</a></li>
                 </ul>
             </li>
+            -->
             <li><a href="#"><i class="fa fa-building-o"></i> ผู้บริหารและพนักงาน</a></li>
             <li><a href="logout.php"><i class="fa fa-power-off"></i> ออกจากระบบ</a></li>
         </ul>
