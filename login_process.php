@@ -7,7 +7,7 @@ $objQuery = mysqli_query($dbconfig, $strSQL);
 	$objResult = mysqli_fetch_array($objQuery);
 	if(!$objResult)
 	{
-			echo "Username and Password Incorrect!";
+			header("location:login.php");
 	}
 	else
 	{
@@ -17,16 +17,5 @@ $objQuery = mysqli_query($dbconfig, $strSQL);
 			session_write_close();
                         
                         header("location:index.php");
-			/*
-			if($objResult["role"] == 1)
-			{
-				header("location:index.php");
-			}
-			else
-			{
-				header("location:forms.html");
-			}
-                         * 
-                         */
 	}
 ?>

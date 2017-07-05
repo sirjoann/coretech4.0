@@ -1663,6 +1663,7 @@ th {
 .table > thead > tr > th {
   vertical-align: bottom;
   border-bottom: 2px solid #dddddd;
+  font-weight: 200;
 }
 
 .table > caption + thead > tr:first-child > th,

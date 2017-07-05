@@ -53,8 +53,13 @@
                                         <span class="input-group-addon" id="sizing-addon2"><i class="fa fa-tags"></i></span>
                                         <select class="form-control" name="txtType" id="select-1" required="">
                                             <option value="1">ทั่วไป</option>
-                                            <option value="2">เอกสารส่งงาน</option>
-                                            <option value="3">เอกสารทางบัญชี</option>
+                                            <option value="2">เอกสารส่งงาน Taxi</option>
+                                            <option value="3">เอกสารส่งงาน 57 กล้อง</option>
+                                            <option value="4">เอกสารส่งงานอื่นๆ</option>
+                                            <option value="5">เอกสารทางบัญชี</option>
+                                            <option value="6">เอกสารงานแบบทั่วไป</option>
+                                            <option value="7">เอกสารงานกราฟฟิค</option>
+                                            <option value="8">อื่นๆ</option>
                                         </select>
                                     </div>
                                 </div>

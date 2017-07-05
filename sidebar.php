@@ -8,7 +8,7 @@ if ($_SESSION['UserID'] == "") {
     <div class="sidebar content-box" style="display: block;">
         <div class="row">
             <div class="col-md-10 col-xs-10">
-                <div style="text-align: left; padding-bottom: 10px; padding-left: 10px;">ยินดีต้อนรับ, <a href="#"><?php echo $_SESSION['UserID']; ?></a></div>
+                <div style="text-align: left; padding-bottom: 10px; padding-left: 10px;">ยินดีต้อนรับ, <a href="profile.php"><?php echo $_SESSION['UserID']; ?></a></div>
             </div>
             <div class="col-md-2 col-xs-2">
                 <a onclick="hideMenuSide()" style="padding-right: 20px; color: #333"><i class="fa fa-bars"></i></a>
@@ -18,6 +18,7 @@ if ($_SESSION['UserID'] == "") {
             <li></li>
             <li class="current"><a href="index.php"><i class="fa fa-home"></i> หน้าแรก</a></li>
             <li><a href="forms.php"><i class="fa fa-file-text-o"></i> แบบฟอร์มต่างๆ</a></li>
+            <!--
             <li class="submenu">
                 <a href="#">
                     <i class="fa fa-print"></i> รายงานการใช้เครื่องปริ้น
@@ -25,10 +26,10 @@ if ($_SESSION['UserID'] == "") {
                 </a>
                 <ul>
                     <li><a href="add_print.php">บันทึกการใช้งาน</a></li>
-                    <li><a href="print_all.php">รายการปริ้นงานทั้งหมด</a></li>
+                    <li><a href="print_all.php">รายการพิมพ์งานทั้งหมด</a></li>
+                    <li><a href="print_our.php">ประวัติการพิมพ์</a></li>
                 </ul>
             </li>
-            <!--
             <li class="submenu">
                 <a href="#">
                     <i class="fa fa-street-view"></i> รายงานออกนอกพื้นที่
@@ -40,7 +41,7 @@ if ($_SESSION['UserID'] == "") {
                 </ul>
             </li>
             -->
-            <li><a href="#"><i class="fa fa-building-o"></i> ผู้บริหารและพนักงาน</a></li>
+            <li><a href="maps.php"><i class="fa fa-building-o"></i> ผู้บริหารและพนักงาน</a></li>
             <li><a href="logout.php"><i class="fa fa-power-off"></i> ออกจากระบบ</a></li>
         </ul>
     </div>

@@ -10,8 +10,8 @@ $remark = $_POST['txtRemark'];
 $type = $_POST['txtType'];
 
 
-$sqlprint = "INSERT INTO print_log (print_id, qty, size, color, type, remark, create_by) "
-        . "VALUES('', $qty, $size, $color, $type, $remark, '$name')";
+$sqlprint = "INSERT INTO print_log (print_id, qty, size, color, type, remark, create_by, create_date, IsDel) "
+        . "VALUES('', $qty, $size, $color, $type, '$remark', '$name', NOW(), 0)";
 
 $objQueryNewBill = mysqli_query($dbconfig, $sqlprint);
 
