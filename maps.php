@@ -80,7 +80,10 @@
                                                             <a href="#">
                                                                 <div class="container-fluid">
                                                                     <div class="row">
-                                                                        <div class="maps_name">พี่ปุ่น<br>PROJECT MANAGER</div>
+                                                                        <img src="images/user.png" width="100">
+                                                                        <div class="maps_name">ปภาวรินทร์ ยังประเสริฐ</div>
+                                                                        <div class="maps_position">ผู้จัดการโครงการ</div>
+                                                                        <div><i class="fa fa-phone"></i> 092-283-3988</div>
                                                                     </div>
                                                                 </div>
                                                             </a>
@@ -89,7 +92,10 @@
                                                                     <a href="#">
                                                                         <div class="container-fluid">
                                                                             <div class="row">
-                                                                                <div class="maps_name">แบงค์<br>SUPPORT</div>
+                                                                                <img src="images/user.png" width="100">
+                                                                                <div class="maps_name">ธนากร รอดประดิษฐ์</div>
+                                                                                <div class="maps_position">ผู้ช่วยผู้จัดการโครงการ</div>
+                                                                                <div><i class="fa fa-phone"></i> 000-000-0000</div>
                                                                             </div>
                                                                         </div>
                                                                     </a>
